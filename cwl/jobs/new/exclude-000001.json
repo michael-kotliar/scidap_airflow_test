@@ -1,0 +1,17 @@
+{
+  "uid": "000001",
+
+  "fasta_input_file":
+    {
+      "class": "File",
+      "location": "../../data/bowtie2/chrM.fa",
+      "format":"http://edamontology.org/format_1929"
+    },
+
+  "fastq_input_file":
+    {
+      "class": "File",
+      "location": "../../data/bowtie2/reads_test.fastq",
+      "format":"http://edamontology.org/format_1930"
+    }
+}

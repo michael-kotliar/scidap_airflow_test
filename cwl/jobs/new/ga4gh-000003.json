@@ -1,0 +1,9 @@
+{
+  "uid": "000003",
+
+  "input_file":
+    {
+      "class": "File",
+      "location": "../../data/ga4gh/md5sum.input"
+    }
+}
