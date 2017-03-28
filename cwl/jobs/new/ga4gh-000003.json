@@ -5,5 +5,9 @@
     {
       "class": "File",
       "location": "../../data/ga4gh/md5sum.input"
-    }
+    },
+
+  "output_folder": "../../custom_output_dir/",
+  "tmp_folder": "../../custom_tmp_dir/",
+  "author": "Michael"
 }
