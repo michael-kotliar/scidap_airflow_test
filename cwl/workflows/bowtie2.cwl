@@ -21,7 +21,7 @@ outputs:
 
   bam_bai_files:
     type: File
-    outputSource: samtools_sort_index/bamBaiPair
+    outputSource: samtools_sort_index/bam_bai_pair
 
 steps:
   bowtie2_generate_indices:
@@ -48,5 +48,5 @@ steps:
   samtools_sort_index:
     run: ../tools/samtools-sort-index.cwl
     in:
-      sortInput: bowtie2_map/output
-    out: [bamBaiPair]
+      sort_input: bowtie2_map/output
+    out: [bam_bai_pair]
